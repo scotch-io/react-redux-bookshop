@@ -29,6 +29,7 @@
   "author": "Christian Nwamba",
   "license": "MIT",
   "dependencies": {
+    "axios": "0.14.0",
     "bootstrap": "3.3.7",
     "object-assign": "4.1.0",
     "react": "15.3.0",
