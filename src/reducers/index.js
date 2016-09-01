@@ -1,7 +1,10 @@
 // Set up your root reducer here...
 import { combineReducers } from 'redux';
-import books from './bookReducers'
+import {booksReducer, bookReducer} from './bookReducers'
+import cart from './cartReducers';
 
 export default combineReducers({
-  books
+  books: booksReducer,
+  book: bookReducer,
+  cart
 });
